@@ -1,6 +1,8 @@
 /*Normailziación de estilos*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
 
+
+
 *,
 *::after,
 *::before {
@@ -19,7 +21,7 @@ html{
 
 a{
     text-decoration: none;
-    font-size: 2em;
+    /* font-size: 2em; */
     color:inherit; /*Color heredado*/
     color: inherit;
 }
@@ -34,9 +36,9 @@ ul, ol{
     list-style-type: none;
 }
 
-p{
-    font-size: 1.8em; /*puede ser 1.8em*/
-}
+ p{
+   font-size: 1.8em; /*puede ser 1.8em*/
+} 
 
 .container{
     max-width: 1200px;
