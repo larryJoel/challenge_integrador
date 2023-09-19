@@ -440,8 +440,10 @@ header{
 
 /* PAGINA SHOP ************************/
 .shop{
-   display: flex;
-   padding: var(--spacing-12);
+   display: grid;
+   grid-template-columns: 20% 80%;
+   justify-content: center;
+   padding: var(--spacing-8);
 }
 
 .shop-aside{
@@ -480,17 +482,47 @@ header{
 }
 
 .aside__input{
-   width: 230px;
+   width: 200px;
    padding: var(--spacing-12);
 }
 
 .aside__input_price{
-   width: 60px;
+   width: 45px;
    padding: 5px;
 }
 
-
-.__input{
-   border: 10px solid var(--dark-bg-solid);
+/*contenedor de checkbox*/
+.checkbox-container{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
 }
 
+input[type="checkbox"]{
+   
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   border:5px solid var(--dark-solid);
+   margin: 3px;
+}
+
+.checkbox-label{
+   font-size: var(--font-xsmall);
+   color: var(--dark-solid);
+}
+
+.contenedor_cajita{
+   display:flex;
+   flex-wrap: wrap;
+
+}
+
+.cajita{
+
+   width: 305px;
+   height: 305px;
+   margin: 3px;
+   display: inline-block;
+   
+}
