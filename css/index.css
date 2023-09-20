@@ -447,6 +447,7 @@ header{
    padding: var(--spacing-8);
 }
 
+
 .shop-aside{
    display: flex;
    flex-direction: column;
@@ -516,16 +517,16 @@ input[type="checkbox"]{
 .contenedor_cajita{
    display:flex;
    flex-wrap: wrap;
+   
 }
 
 .cajita{
-
    width: 305px;
-   height: 305px;
-   margin: 3px;
+   height: auto;
+   margin: 5px;
    display: inline-block; 
 }
 
-.contenedor_cajita li:last-child {
-   clear: both; /* Evita que se superponga con otros elementos */
- }
+ .contenedor_cajita li:last-child {
+   clear: both; 
+ } 
