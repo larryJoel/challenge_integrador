@@ -448,6 +448,8 @@ header{
 }
 
 
+
+
 .shop-aside{
    display: flex;
    flex-direction: column;
@@ -530,3 +532,71 @@ input[type="checkbox"]{
  .contenedor_cajita li:last-child {
    clear: both; 
  } 
+
+ .paginado{
+   margin: 40px;
+   display: flex;
+   justify-content: center;
+ }
+
+
+
+ .pag{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+   width: 40px;
+   height: 40px;
+   border: 2px solid black;
+   text-align: center;
+   margin: var(--spacing-8);
+   font-size: var(--font-medium);
+   color: var(--dark-bg-solid);
+   transition: background .3s ease-in-out;
+ }
+
+ .pag:hover{
+   color: var(--primary-solid);
+   border: 3px solid var(--primary-solid);
+ }
+
+ /*CARRITO DE COMPRAS*/
+ .title-car{
+   width: 250px;
+   margin: 50px 0 15px 0;
+   border-bottom: 2px solid var(--primary-solid);
+   text-align: center;
+   font-size: var(--font-medium);
+ }
+
+ .detail-car{
+   margin: 5px 0 20px 0;
+   
+   display: flex;
+   justify-content: center;
+ }
+
+ .border-table-title{
+   border: 2px solid black;
+   padding: 10px;
+ }
+
+ .table-car_title th {
+   border-left: 1px solid #000; /* Borde izquierdo */
+   border-right: 1px solid #000; /* Borde derecho */
+   padding-left: 10px; /* Añade espacio entre el texto y el borde izquierdo */
+   padding-right: 10px; /* Añade espacio entre el texto y el borde derecho */
+ }
+ 
+ /* Estilo opcional para el primer y último encabezado para evitar bordes izquierdos/derechos adicionales */
+ .table-car_title th:first-child {
+   border-left: none; /* Elimina el borde izquierdo del primer elemento */
+ }
+ 
+ .table-car_title th:last-child {
+   border-right: none; /* Elimina el borde derecho del último elemento */
+ }
+
+
+ 
