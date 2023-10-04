@@ -256,10 +256,10 @@ header{
 .login_form{
     display: flex;
     justify-content: center;
-    margin: 5px;
+    margin: var(--spacing-20);
 }
 .login_form-group{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
     font-size: var(--font-medium);
@@ -270,19 +270,56 @@ header{
 }
 
 form{
-    width: 330px;
+    width: 390px;
 }
 
 .login_form-group input{
     width: 200px;
     border: none;
-    border-bottom: 2px solid red;
+    border-bottom: 3px solid var(--primary-900);
 }
 
     
 /*tITULO*/
 
 /*fORMULARIO*/
+.login_btnIngresar{
+    background-color: var(--primary-solid);
+    width: 110px;
+    height: 30px;
+    color: var(--light-bg-solid);
+    border: none;
+    font-weight: var(--font-xlarge);
+    border-right: var(--spacing-20);
+}
 
-    
+
 /*Recordar contraseña*/
+
+.login_check{
+    width: 60px;
+    border: 2px solid var(--dark-solid);
+}
+
+.login_checkTitle{
+    color: #1F1F1F;
+    font-size: var(--font-xsmall);
+    /* padding: var(--spacing-8); */
+}
+    
+
+.login_olvideContrasena{
+    padding: var(--spacing-12);
+    color: #1D84B5;
+    font-size: var(--font-xsmall);
+}
+
+.login_subtitle{
+    font-family: var(--alternative-font);
+    font-size: var(--font-large);
+    margin: var(--spacing-28);
+}
+
+.login_checkTitle a{
+    color: var(--secondary-solid);
+}
