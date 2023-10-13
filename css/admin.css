@@ -279,8 +279,6 @@ form{
     border-bottom: 3px solid var(--primary-900);
 }
 
-    
-/*tITULO*/
 
 /*fORMULARIO*/
 .login_btnIngresar{
@@ -323,3 +321,12 @@ form{
 .login_checkTitle a{
     color: var(--secondary-solid);
 }
+
+/*pag ACREATE*/
+/*TITULO*/
+.create_title{
+    margin: 20px;
+    font-size: var(--font-jumbo);
+}
+/*CONTENEDOR DEL FORMULARIO*/
+/*FORMULARIO*/

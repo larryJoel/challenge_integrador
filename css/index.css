@@ -284,10 +284,25 @@ header{
    text-transform: uppercase;
  }
 
- .slider__items{
+/*  .slider__items{
    display: flex;
    gap: var(--spacing-24);
- }
+ } */
+
+ iconify-icon{
+         color: var(--dark-bg-solid);
+         font-size: var(--font-small);
+         font-weight: 700;
+       
+   }
+
+   .glide__arrow--left{
+      left: 0;
+   }
+
+   .glide__arrow--right{
+      right: 0;
+   }
 
  .card-item__cover{
    display: flex;
@@ -413,15 +428,22 @@ header{
 
 .card-only__content-sum,
 .card-only__content-res{
+   width: 65px;
+   height: 65px;
    background-color: var(--dark-900);
    color: var(--light-bg-solid);
    margin: var(--spacing-14); 
    padding: var(--spacing-12) var(--spacing-20);
+
 }
 .card-only__content-num{
+   width: 95px;
+   height: 60px;
    margin: var(--spacing-8);
    padding: var(--spacing-8) var(--spacing-20);
    border: 5px solid var(--dark-300);
+   font-size: var(--font-xsmall);
+   text-align: center;
 }
 
 .card-only__content-car{
