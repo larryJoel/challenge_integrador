@@ -281,7 +281,8 @@ form{
 
 
 /*fORMULARIO*/
-.login_btnIngresar{
+.login_btnIngresar
+{
     background-color: var(--primary-solid);
     width: 110px;
     height: 30px;
@@ -328,5 +329,90 @@ form{
     margin: 20px;
     font-size: var(--font-jumbo);
 }
+
+/*CREAR NUEVO ITEM*/
 /*CONTENEDOR DEL FORMULARIO*/
-/*FORMULARIO*/
+.create_content{
+    display:flex ;
+    flex-direction: column; 
+ }
+ 
+ /*FORMULARIO*/
+ .create_cat_lic_content,
+ .create_product_form,
+ .create_inventario_content,
+ .create_product_desc_content,
+ .cpui,
+ .create_product_boton_content
+ {
+     display: flex;
+     justify-content:first baseline;
+     font-size: var(--font-medium);
+ }
+
+ .cat_label,
+ .cat_select,
+ .lic_label,
+ .product_label,
+ .desc_label,
+ .imagenes_label,
+ .inventario_sku_input,
+ .desc_cuotas_label,
+ .pii
+ {
+    margin-right:var(--spacing-12)
+}
+
+select{
+    width:auto;
+    height: 28px;
+    border: 2px solid var(--dark-500);
+    border-radius: 5px;
+}
+
+textarea{
+    width: 530px;
+}
+ 
+.create_product_form,
+.create_product_description_content,
+.create_inventario_content,
+.create_product_desc_content,
+.create_product_boton_content
+{
+     margin:2% 0%;    
+}
+
+.pii
+{
+    border:none;
+    border-bottom:3px solid var(--primary-solid);
+    text-align: center;
+    font-size:smaller ;
+}
+
+.sku{
+    width: 90px
+}
+.precio{
+    width: 80px
+}
+
+.stock{
+    width: 30px;
+}
+
+.descuento{
+    width: 30px;
+}
+
+.product_btn_agregar,
+.product_btn_limpiar{
+    background-color: #FF3333;
+    color: #FAFAFF;
+    width: 160px;
+    height: 40px;
+    border: none;
+    margin: 8px;
+    font-size: 15px;
+}
