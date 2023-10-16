@@ -48,39 +48,52 @@
       <h3 class="title-car_title">CARRITO DE COMPRAS</h3>
   </section>
   <section class="detail-car">
-
+    <table class="detail_table_content">
+      <tr class="detail_header">
+        <th class="detail_titles izq">Detalle del producto</th>
+        <th class="detail_titles">Cantidad</th>
+        <th class="detail_titles">Total</th>
+        <th class="detail_titles der"></th>
+      </tr>
+      <tr class="detail_body">
+        <td class="detail_data">Baby Yoda blue ball</td>
+        <td class="detail_data">2</td>
+        <td class="detail_data">1799,99</td>
+        <td class="detail_data">boton</td>
+      </tr>
+    </table>
   </section>
-  <section>
+  <section class="section_resumen">
     <!-- CUADRO Resumen -->
-    <div>
-      <h2>RESUMEN</h2>
+    <div class="resumen_content">
+      <h2 class="resumen_title">RESUMEN</h2>
     </div>
-    <div>
-      <table>
-        <tr>
-          <td>CANTIDAD DE ELEMENTOS</td>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td>SUBTOTAL</td>
-          <td>$5.399,97</td>
-        </tr>
-        <tr>
-          <td>ENVIO</td>
-          <td>$0,00</td>
-        </tr>
-        <tr>
-          <td>TOTAL</td>
-          <td>$5.399,97</td>
-        </tr>
-      </table>
-      <button>IR A PAGAR</button>
-    </div>
+    <form action="">
+      <div class="tabla_content">
+        <table class="tabla_resumen">
+          <tr class="tabla_tr">
+            <td class="tabla_td negrita">CANTIDAD DE ELEMENTOS</td>
+            <td class="tabla_td valor">3</td>
+          </tr>
+          <tr  class="tabla_tr">
+            <td class="tabla_td negrita">SUBTOTAL</td>
+            <td class="tabla_td valor">$5.399,97</td>
+          </tr>
+          <tr  class="tabla_tr">
+            <td class="tabla_td negrita linea">ENVIO</td>
+            <td class="tabla_td valor linea">$0,00</td>
+          </tr>
+          <tr  class="tabla_tr">
+            <td class="tabla_td negrita">TOTAL</td>
+            <td class="tabla_td valor">$5.399,97</td>
+          </tr>
+        </table>
+        <button class="resumen_btn">IR A PAGAR</button>
+      </div>
+    </form>
   </section>
 </main>
-
-
-    <footer class="footer">
+<footer class="footer">
         <nav class="navbar container">
           <ul class="navbar__item">
             <li class="navbar__item">
@@ -97,8 +110,7 @@
           </picture>
         </nav>
       <p class="footer__copy">All rights reserved 2023 - Funkoshop &copy;</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
-
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
 </body>
 </html>

@@ -413,6 +413,27 @@ textarea{
     width: 160px;
     height: 40px;
     border: none;
-    margin: 8px;
+    margin-right: 8px;
     font-size: 15px;
 }
+
+/*Edit page*/
+.edit_image_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    margin: var(--spacing-12);
+}
+
+.content_front,
+.content_back{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-bottom: 1px solid red;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: var(--font-medium);
+}
+
