@@ -183,6 +183,7 @@ header{
     flex-direction:column;
     justify-content: left;
     align-items: flex-end;
+    margin-top: var(--spacing-36);
 }
 
 .resumen_content{
@@ -206,14 +207,138 @@ header{
 
 
 /*RESUMEN*/
+.car_content{
+    display: flex;
+    align-items:center;
+    margin-top: var(--spacing-24);
+    border: 1px solid var(--dark-300);
+    background-color: var(--light-bg-solid);
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.car_content_article{
+    display: flex;
+    align-items:center;
+    margin-top: var(--spacing-24);
+    border: 1px solid var(--dark-300);
+    background-color: var(--light-bg-solid);
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.car_title{
+    width: 400px;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: var(--font-medium);
+    padding: 8px;
+}
+
+.car_product{
+    text-align: center;
+    font-size: var(--font-medium);
+    /* border: 1px solid red; */
+}
+
+._detail{
+    width: 450px;
+}
+
+._cant{
+    width: 300px;
+    text-align: left;
+}
+
+._total{
+    width: 300px;
+    text-align: left;
+}
+
+.product_img_content,
+.car_product_cant{
+    display: flex;
+    justify-content:left;
+}
+
+.img_caja{
+    width: 110px;
+}
+
+.car_product img{
+    width: 100%;
+}
+
+.img_description{
+    padding: 18px;
+    text-align: left;
+}
+
+.img_desc_name
+{
+    font-weight: bold;
+   font-size: var(--font-xsmall);
+}
+
+.img_desc_origen{
+    font-size: 14px;
+}
+
+.img_desc_price{
+    font-size: 14px;
+    margin-top: var(--spacing-16);   
+} 
+
+.car_prod_num{
+    font-weight: bold;
+    font-size: var(--font-medium);
+    padding: 12px;
+    border: 1px solid var(--dark-300);
+    text-align: center;
+    width: 90px;
+}
+
+.car_prod_botons{
+    display: flex;
+    flex-direction: column;
+}
+
+.botons{
+    width: 20px;
+    height: 20px;
+    background-color: #FF3333;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: var(--font-small);
+    margin: 2px;
+    padding-bottom: 7px;
+}
+
+.car_product_total{
+    display: flex;
+    justify-content:flex-end;
+    width: 200px;
+    text-align: center;
+}
+
+.prod_total_monto{
+    font-size: var(--font-small);
+}
+
+.prod_total_cerrar{
+    width: 30px;
+    text-align: right;
+    font-size: 30px;
+    color: #FF3333;
+    font-weight: bold;
+}
+
+
 
 .tabla_content{
-   /*  border: 1px solid var(--dark-300);
-    background-color: var(--light-bg-solid);
-    margin-top: var(--spacing-12);
-    margin-bottom: var(--spacing-12);
-    padding: var(--spacing-8);
-    font-size: var(--font-small); */
+    margin-top: var(--spacing-20);
     margin-bottom: var(--spacing-68);
 }
 
@@ -225,6 +350,7 @@ header{
     margin-bottom: var(--spacing-12);
     padding: var(--spacing-8);
     font-size: var(--font-small);
+    border-radius: 5px;
 }
 
 .tabla_td{
