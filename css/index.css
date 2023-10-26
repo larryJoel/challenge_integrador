@@ -436,6 +436,7 @@ header{
    padding: var(--spacing-12) var(--spacing-20);
 
 }
+
 .card-only__content-num{
    width: 95px;
    height: 60px;
